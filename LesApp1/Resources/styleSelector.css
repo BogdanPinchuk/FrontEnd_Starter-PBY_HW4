@@ -1,0 +1,46 @@
+﻿div {
+    margin: 40px;
+    padding: 30px;
+    border-radius: 25px;
+    border: 5px double silver;
+    /* Microsoft */
+    box-shadow: -25px -25px 25px #F25413, inset -15px 15px 25px #85B801, 25px 25px 25px #FFB901, inset 15px -15px 25px #01A4F3;
+}
+
+h2 {
+    text-shadow: 3px 3px 10px gray;
+}
+
+h4 {
+    text-align: center;
+    font-style: italic;
+    margin: 0px;
+}
+
+h4+ul:first-of-type, h4+ol:first-of-type {
+    margin-top: 20px;
+}
+
+ul {
+    margin: 0px;
+}
+
+ul>li:first-of-type {
+    margin-top: 10px;
+}
+
+ul>li:last-of-type {
+    margin-bottom: 20px;
+}
+
+ol {
+    margin: 0px;
+}
+
+ol>li:first-of-type {
+    margin-top: 15px;
+}
+
+ol>li:last-of-type {
+    margin-bottom: 25px;
+}

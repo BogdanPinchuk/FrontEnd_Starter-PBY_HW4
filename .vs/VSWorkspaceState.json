@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\LesApp0"
+    "\\LesApp0",
+    "\\LesApp1",
+    "\\LesApp1\\Resources"
   ],
-  "SelectedNode": "\\LesApp0",
+  "SelectedNode": "\\LesApp1\\Resources\\styleSelector.css",
   "PreviewInSolutionExplorer": false
 }
