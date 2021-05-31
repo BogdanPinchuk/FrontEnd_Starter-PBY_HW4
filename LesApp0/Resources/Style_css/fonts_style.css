@@ -1,0 +1,91 @@
+div {
+    margin: 50px;
+}
+
+p {
+    text-align: justify;
+    /* відступ */
+    text-indent: 25px;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    color: blue;
+}
+
+p>span {
+    font-style: italic;
+}
+
+#id_sciece {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: tomato;
+}
+
+@font-face {
+    /* Компас 3D */
+    font-family: GOST_A;
+    src: url('../Fonts/Drawing/GOST_A.TTF'), url('../Fonts/Drawing/GOST_A.FON');
+}
+
+@font-face {
+    /* Компас 3D */
+    font-family: GOST_B;
+    src: url('../Fonts/Drawing/GOST_B.TTF'), url('../Fonts/Drawing/GOST_B.FON');
+}
+
+@font-face {
+    /* AutoCAD */
+    font-family: ISOCPEUR;
+    src: url('../Fonts/Drawing/ISOCPEUR.ttf'), url('../Fonts/Drawing/ISOCPEUR-Italic.ttf');
+}
+
+#id_draw {
+    /* font-family: GOST_A; */
+    /* font-family: GOST_B; */
+    font-family: ISOCPEUR;
+    background-color: greenyellow;
+}
+
+@font-face {
+    /* https://docs.microsoft.com/ru-ru/windows/terminal/cascadia-code */
+    font-family: CascadiaCode;
+    src: url('../Fonts/Programing/CascadiaCode.ttf'), url('../Fonts/Programing/CascadiaCodeItalic.ttf');
+}
+
+@font-face {
+    font-family: CascadiaMono;
+    src: url('../Fonts/Programing/CascadiaMono.ttf'), url('../Fonts/Programing/CascadiaMonoItalic.ttf');
+}
+
+@font-face {
+    font-family: CascadiaCodePL;
+    src: url('../Fonts/Programing/CascadiaCodePL.ttf'), url('../Fonts/Programing/CascadiaCodePLItalic.ttf');
+}
+
+@font-face {
+    font-family: CascadiaMonoPL;
+    src: url('../Fonts/Programing/CascadiaMonoPL.ttf'), url('../Fonts/Programing/CascadiaMonoPLItalic.ttf');
+}
+
+#id_vs2022 {
+    font-family: CascadiaCode;
+    /* font-family: CascadiaMono; */
+    /* font-family: CascadiaCodePL; */
+    /* font-family: CascadiaMonoPL; */
+    background-color: gold;
+}
+
+#id_remoute {
+    /* font-family: 'Bad Script', cursive; */
+    font-family: 'Caveat', cursive;
+    background-color: skyblue;
+}
