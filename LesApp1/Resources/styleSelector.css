@@ -17,22 +17,22 @@ h4 {
     margin: 0px;
 }
 
-h4:hover{
+h4:hover {
     font-size: 30px;
     color: mediumblue;
     text-shadow: 3px 3px 5px mediumturquoise;
 }
 
-ul:hover, ol:hover{
+ul::first-letter, ol::first-letter {
+    font-size: 25px;
+    color: crimson;
+}
+
+ul:hover, ol:hover {
     font-size: 25px;
     border-radius: 25px;
     border: 1px dotted fuchsia;
     background-color: rgba(135, 206, 235, 0.25);
-}
-
-ul::first-letter, ol::first-letter{
-    font-size: 25px;
-    color: crimson;
 }
 
 h4+ul:first-of-type, h4+ol:first-of-type {
@@ -40,6 +40,7 @@ h4+ul:first-of-type, h4+ol:first-of-type {
 }
 
 /* Для прикладу */
+
 ul, ol {
     margin: 0px;
 }
