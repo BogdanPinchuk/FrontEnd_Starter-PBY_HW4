@@ -11,10 +11,10 @@
 }
 
 div:active{
-    box-shadow: inset -25px -25px 25px #F25413, 
-    -15px 15px 25px #85B801, 
-    inset 25px 25px 25px #FFB901, 
-    15px -15px 25px #01A4F3;
+    box-shadow: inset -15px -15px 25px #F25413, 
+    -25px 25px 25px #85B801, 
+    inset 15px 15px 25px #FFB901, 
+    25px -25px 25px #01A4F3;
 }
 
 h2 {
