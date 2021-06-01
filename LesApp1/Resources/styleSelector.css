@@ -21,7 +21,8 @@ h4+ul:first-of-type, h4+ol:first-of-type {
     margin-top: 20px;
 }
 
-ul {
+/* Для прикладу */
+ul, ol {
     margin: 0px;
 }
 
@@ -31,10 +32,6 @@ ul>li:first-of-type {
 
 ul>li:last-of-type {
     margin-bottom: 20px;
-}
-
-ol {
-    margin: 0px;
 }
 
 ol>li:first-of-type {
