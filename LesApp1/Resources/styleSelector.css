@@ -20,6 +20,19 @@ h4 {
 h4:hover{
     font-size: 30px;
     color: mediumblue;
+    text-shadow: 3px 3px 5px mediumturquoise;
+}
+
+ul:hover, ol:hover{
+    font-size: 25px;
+    border-radius: 25px;
+    border: 1px dotted fuchsia;
+    background-color: rgba(135, 206, 235, 0.25);
+}
+
+ul::first-letter, ol::first-letter{
+    font-size: 25px;
+    color: crimson;
 }
 
 h4+ul:first-of-type, h4+ol:first-of-type {
@@ -45,9 +58,4 @@ ol>li:first-of-type {
 
 ol>li:last-of-type {
     margin-bottom: 25px;
-}
-
-ul::first-letter, ol::first-letter{
-    font-size: 25px;
-    color: crimson;
 }
