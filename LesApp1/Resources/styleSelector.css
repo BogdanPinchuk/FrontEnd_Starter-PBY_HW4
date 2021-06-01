@@ -34,12 +34,14 @@ h4:hover {
 }
 
 ul::first-letter, ol::first-letter {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.5em;
     color: crimson;
 }
 
 ul:hover, ol:hover {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.5em;
     border-radius: 25px;
     border: 1px dotted fuchsia;
     background-color: rgba(135, 206, 235, 0.25);
