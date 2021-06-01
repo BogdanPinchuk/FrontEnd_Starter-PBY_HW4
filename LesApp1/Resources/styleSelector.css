@@ -41,3 +41,8 @@ ol>li:first-of-type {
 ol>li:last-of-type {
     margin-bottom: 25px;
 }
+
+ul::first-letter, ol::first-letter{
+    font-size: 25px;
+    color: crimson;
+}
