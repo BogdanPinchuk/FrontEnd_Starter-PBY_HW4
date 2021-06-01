@@ -17,6 +17,11 @@ h4 {
     margin: 0px;
 }
 
+h4:hover{
+    font-size: 30px;
+    color: mediumblue;
+}
+
 h4+ul:first-of-type, h4+ol:first-of-type {
     margin-top: 20px;
 }
