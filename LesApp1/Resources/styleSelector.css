@@ -36,6 +36,7 @@ h4:hover {
 ul::first-letter, ol::first-letter {
     /* font-size: 25px; */
     font-size: 1.5em;
+    letter-spacing: 0.075em;
     color: crimson;
 }
 
